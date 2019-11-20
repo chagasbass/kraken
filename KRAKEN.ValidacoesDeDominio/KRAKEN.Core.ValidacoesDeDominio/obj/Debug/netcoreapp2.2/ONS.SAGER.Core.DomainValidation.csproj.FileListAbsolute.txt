@@ -1,0 +1,9 @@
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.csprojAssemblyReference.cache
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.csproj.CoreCompileInputs.cache
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.AssemblyInfoInputs.cache
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.AssemblyInfo.cs
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\bin\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.deps.json
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\bin\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.dll
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\bin\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.pdb
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.dll
+C:\Users\thiago.chagas\source\repos\ONS.SAGER.Core\ONS.SAGER.Core.DomainValidation\obj\Debug\netcoreapp2.2\ONS.SAGER.Core.DomainValidation.pdb

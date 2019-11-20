@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "KRAKEN.Core.ValidacoesDeDominio/1.0.0": {
+        "runtime": {
+          "KRAKEN.Core.ValidacoesDeDominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KRAKEN.Core.ValidacoesDeDominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

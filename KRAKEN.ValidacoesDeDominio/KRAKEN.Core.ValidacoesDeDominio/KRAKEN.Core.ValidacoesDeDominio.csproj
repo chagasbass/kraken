@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ONS.SAGER.Util</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Thiago_Chagas</Authors>
+    <Company>Radix_ONS</Company>
+  </PropertyGroup>
+</Project>
