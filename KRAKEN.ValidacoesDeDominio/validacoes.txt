@@ -1,0 +1,21 @@
+validar Cep
+formatar cep
+validar cpf
+formatar cpf
+validar cnpj
+formatar cnpj
+
+validar telefone celular
+validar telefone fixo
+validar ddd
+
+validar titulo de eleitor
+validar placa velha de carro
+validar placa nova
+validar habilitacao
+
+validar url
+validar ip
+validar cartao de crédito
+validar conta de banco
+
