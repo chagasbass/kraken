@@ -1,0 +1,8 @@
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.csprojAssemblyReference.cache
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.AssemblyInfoInputs.cache
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.AssemblyInfo.cs
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\bin\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.deps.json
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\bin\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\bin\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.pdb
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll
+C:\Users\Thiago Chagas\source\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.pdb
