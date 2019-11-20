@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v2.2": {
       "KRAKEN.Core.ValidacoesDeDominio.Testes/1.0.0": {
         "dependencies": {
+          "KRAKEN": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.9.0",
-          "ONS.SAGER.Util": "1.0.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -1000,7 +1000,7 @@
           "Microsoft.NET.Test.Sdk": "15.9.0"
         }
       },
-      "ONS.SAGER.Util/1.0.0": {
+      "KRAKEN/1.0.0": {
         "runtime": {
           "KRAKEN.Core.ValidacoesDeDominio.dll": {}
         }
@@ -1545,7 +1545,7 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "ONS.SAGER.Util/1.0.0": {
+    "KRAKEN/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

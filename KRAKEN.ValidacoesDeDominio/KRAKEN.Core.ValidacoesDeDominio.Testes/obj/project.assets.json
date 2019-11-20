@@ -1674,14 +1674,14 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "ONS.SAGER.Util/1.0.0": {
+      "KRAKEN/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "compile": {
-          "bin/placeholder/ONS.SAGER.Util.dll": {}
+          "bin/placeholder/KRAKEN.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ONS.SAGER.Util.dll": {}
+          "bin/placeholder/KRAKEN.dll": {}
         }
       }
     }
@@ -5852,7 +5852,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ONS.SAGER.Util/1.0.0": {
+    "KRAKEN/1.0.0": {
       "type": "project",
       "path": "../KRAKEN.Core.ValidacoesDeDominio/KRAKEN.Core.ValidacoesDeDominio.csproj",
       "msbuildProject": "../KRAKEN.Core.ValidacoesDeDominio/KRAKEN.Core.ValidacoesDeDominio.csproj"
@@ -5860,9 +5860,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "KRAKEN >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "ONS.SAGER.Util >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]

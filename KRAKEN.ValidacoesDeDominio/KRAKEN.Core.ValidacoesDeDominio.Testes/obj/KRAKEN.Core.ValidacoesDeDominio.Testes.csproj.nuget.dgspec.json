@@ -84,7 +84,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
-        "projectName": "ONS.SAGER.Util",
+        "projectName": "KRAKEN",
         "projectPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
         "packagesPath": "C:\\Users\\Thiago Chagas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\obj\\",
