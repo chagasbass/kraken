@@ -12,6 +12,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\bin\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll" target="lib\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll" />
+    <file src="C:\dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\bin\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll" target="lib\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll" />
   </files>
 </package>

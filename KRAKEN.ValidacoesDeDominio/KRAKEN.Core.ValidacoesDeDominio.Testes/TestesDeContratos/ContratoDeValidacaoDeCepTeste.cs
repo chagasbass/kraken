@@ -32,16 +32,36 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Testes.TestesDeContratos
         }
 
         [TraitAttribute("Categoria", "Testes de Contrato de ceps")]
-        [Fact(DisplayName = "DeveRetornarVerdadeiroQNaoDeveRetornarNotificacaoQuandoCepForValidoEForFormatadouandoValorForFalso")]
-        public void NaoDeveRetornarNotificacaoQuandoCepForValidoEForFormatado()
+        [Fact(DisplayName = "DeveRetornarNotificacaoQuandoCepForInvalido")]
+        public void DeveRetornarNotificacaoQuandoCepForInvalido()
         {
-            var cep = "24130-110";
+            var cep = "24130-123456";
 
             var contrato = new Contrato()
               .Requer()
+              .VerificarSeCepValido(cep, "cep", "cep inválido")
               .VerificarSeCepVazio(cep, "cep", "cep vazio");
 
-            Assert.Equal(0, contrato.Notificacoes.Count);
+            Assert.Equal(1, contrato.Notificacoes.Count);
+        }
+
+        [TraitAttribute("Categoria", "Testes de Contrato de ceps")]
+        [Theory(DisplayName = "NaoDeveRetornarNotificacaoQuandoCepForValido")]
+        [InlineData("24130-110", "24130110")]
+        public void NaoDeveRetornarNotificacaoQuandoCepForValido(string cepComMascara,string cepSemMascara)
+        {
+            var contratoCepComMascara = new Contrato()
+              .Requer()
+              .VerificarSeCepValido(cepComMascara, "cep", "cep inválido")
+              .VerificarSeCepVazio(cepComMascara, "cep", "cep vazio");
+
+            var contratoCepSemMascara = new Contrato()
+           .Requer()
+           .VerificarSeCepValido(cepSemMascara, "cep", "cep inválido")
+           .VerificarSeCepVazio(cepSemMascara, "cep", "cep vazio");
+
+            Assert.Equal(0, contratoCepComMascara.Notificacoes.Count);
+            Assert.Equal(0, contratoCepSemMascara.Notificacoes.Count);
         }
     }
 }

@@ -14,3 +14,4 @@ C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Deb
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.AssemblyInfo.cs
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.dll
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.pdb
+C:\dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.csproj.CoreCompileInputs.cache

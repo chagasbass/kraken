@@ -30,3 +30,4 @@ C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.Testes\
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.Testes\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj.CopyComplete
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.Testes\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.Testes.dll
 C:\Dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.Testes\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.Testes.pdb
+C:\dev\kraken\KRAKEN.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.Testes\obj\Debug\netcoreapp2.2\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj.CoreCompileInputs.cache

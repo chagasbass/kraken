@@ -111,9 +111,9 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
             return VerificarSeUrl(url, propriedade, mensagem);
         }
 
-        public Contrato VerificarPadrao(string text, string pattern, string propriedade, string mensagem)
+        public Contrato VerificarPadrao(string texto, string pattern, string propriedade, string mensagem)
         {
-            if (!Regex.IsMatch(text ?? "", pattern))
+            if (!Regex.IsMatch(texto ?? "", pattern))
                 InserirNotificacao(propriedade, mensagem);
 
             return this;

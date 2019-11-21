@@ -18,9 +18,13 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Helpers
                 return string.Empty;
             }
         }
+
         public static bool ValidarCep(string cep)
         {
             if (string.IsNullOrEmpty(cep))
+                return false;
+
+            if (cep.Length > 9)
                 return false;
 
             if (cep.Length == 8)
