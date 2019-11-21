@@ -5,7 +5,10 @@ formatar cpf
 validar cnpj
 formatar cnpj
 
+validacao de coordenadas
+
 validar telefone celular
+formatar telefones
 validar telefone fixo
 validar ddd
 
@@ -16,6 +19,9 @@ validar habilitacao
 
 validar url
 validar ip
-validar cartao de cr�dito
+validar cartao de crédito
 validar conta de banco
-
+validar bilhete unico
+carteira de habilitação
+carteira de trabalho
+certificado de reservista
