@@ -1,13 +1,12 @@
-#SAGER Domain Notifications
+#KRAKEN Valida√ß√µes de Dom√≠nio
 
-ImplementaÁ„o do Domain Notification Pattern  para efetuar as validaÁıes de domÌnio para entidades do 
-projeto SAGER.
+Implementa√ß√£o do Domain Notification Pattern  para efetuar as valida√ß√µes de dom√≠nio para entidades.
 
 #O que existe neste pacote?
 
-#ValidaÁıes
+#Valida√ß√µes
 
-ValidaÁıes de acordo com os tipos
+Valida√ß√µes de acordo com os tipos
 
 #Boolean
 
@@ -243,12 +242,43 @@ ValidaÁıes de acordo com os tipos
 *VerificarSeMenorOuIgualQue(TimeSpan valor, TimeSpan comparador, string propriedade, string mensagem)
 *VerificarSeEstaEntre(TimeSpan valor, TimeSpan de, TimeSpan para, string propriedade, string mensagem)
 
-#NotificaÁıes
+#CEP
+Valida√ß√µes para Ceps com as seguintes m√°scaras:
+24130-110
+24130110
 
-Modo pr·tico e simples de verificar o que est· ocorrendo nas suas classes. Basta Herdar da classe Notificavel e o seu 
-modelo j· estar· apto a gerar notificaÁıes.
+*VerificarSeCepValido(string cep,string propriedade ,string mensagem)
+*VerificarSeCepVazio(string cep,string propriedade,string mensagem)
+*VerificarTamanho(string valor, string propriedade, string mensagem)
 
-#Modo de validaÁ„o de Entidades
+#Telefone Celular
+
+Aceita n√∫meros de telefones somente com DDD com as seguintes m√°scaras:
+(21)99876-2345
+(21)999999999
+
+*VerificarSeTelefoneCelularComDDDEValido(string telefoneCelular, string propriedade, string mensagem)
+
+#Telefone Fixo
+
+Aceita n√∫meros de telefones somente com DDD com as seguintes m√°scaras:
+(21)26257821
+(21)2625-7821
+
+*VerificarSeTelefoneFixoComDDDEValido(string telefoneFixo,string propriedade,string mensagem)
+*VerificarSeDDDEValido(string telefone,string propriedade,string mensagem)
+
+
+
+
+
+
+#Notifica√ß√µes
+
+Modo pr√°tico e simples de verificar o que est√° ocorrendo nas suas classes. Basta Herdar da classe Notificavel e o seu 
+modelo j√° estar√° apto a gerar notifica√ß√µes.
+
+#Modo de valida√ß√£o de Entidades
 
 A entidade deve herdar de Notificavel
 
@@ -261,17 +291,17 @@ A entidade deve herdar de Notificavel
 
  #Specification
 
- Ser· implementado futuramente.
+ Ser√° implementado futuramente.
 
 #Design By Contract
 
-S„o usados para retirar a complexidades dos cÛdigos. Usando a classe Contrato podemos especificar que as propriedades
-necessitam de validaÁıes como Valor minÌno e m·ximo e etc... Caso alguma especificaÁ„o falhe,ser· adicionada uma notificaÁ„o
-‡ sua classe automaticamente.
+S√£o usados para retirar a complexidades dos c√≥digos. Usando a classe Contrato podemos especificar que as propriedades
+necessitam de valida√ß√µes como Valor min√≠no e m√°ximo e etc... Caso alguma especifica√ß√£o falhe,ser√° adicionada uma notifica√ß√£o
+√† sua classe automaticamente.
 
-Ao Herdar da classe Notificavel È obrigatÛria a implementaÁ„o do mÈtodo "Validar". Para usar o Design By Contract,
-usar o mÈtodo "InserirNotificacoes" passando como par‚metro uma inst‚ncia de Contrato. Como  no exemplo abaixo,
-usa-se a "sintax sugar" Requer, e logo apÛs as validaÁıes necess·rias.
+Ao Herdar da classe Notificavel √© obrigat√≥ria a implementa√ß√£o do m√©todo "Validar". Para usar o Design By Contract,
+usar o m√©todo "InserirNotificacoes" passando como par√¢metro uma inst√¢ncia de Contrato. Como  no exemplo abaixo,
+usa-se a "sintax sugar" Requer, e logo ap√≥s as valida√ß√µes necess√°rias.
 
  public  override void Validar()
         {
@@ -285,18 +315,18 @@ usa-se a "sintax sugar" Requer, e logo apÛs as validaÁıes necess·rias.
 
 #Fail-Fast-Validations
 
-use o Pattern para verificar se o modelo est· V·lido quando o dado È recebido, emitindo a falha imediatemente.
+use o Pattern para verificar se o modelo est√° V√°lido quando o dado √© recebido, emitindo a falha imediatemente.
 
-A interface IValidavel est· inserida na classe Validavel sendo obrigatÛria a implementaÁ„o do mÈtodo Validar()
+A interface IValidavel est√° inserida na classe Validavel sendo obrigat√≥ria a implementa√ß√£o do m√©todo Validar()
 
-Para verificar se a classe est· est· v·lida e n„o existe nenhuma notificaÁ„o,deve-se usar as propriedades "Valido" e "Invalido"
+Para verificar se a classe est√° est√° v√°lida e n√£o existe nenhuma notifica√ß√£o,deve-se usar as propriedades "Valido" e "Invalido"
 
 if(pessoa.Invalido)
 {
   //existem erros no modelo.
 }
 
-#Mostrando as notificaÁıes
+#Mostrando as notifica√ß√µes
 
 var pessoa = new Pessoa("User 10","15");
 
@@ -308,9 +338,9 @@ if(pessoa.Invalido)
 	}
 }
 
-#Concatenando as notificaÁıes 
+#Concatenando as notifica√ß√µes 
 
-Conseguimos herdar a classe Notificavel em qualquer classe que se deseje , incluindo classes aninhadas para agrupar as notificaÁıes
+Conseguimos herdar a classe Notificavel em qualquer classe que se deseje , incluindo classes aninhadas para agrupar as notifica√ß√µes
 
 class Program : Notificavel
 {
@@ -331,13 +361,13 @@ class Program : Notificavel
     }
 }
 
-#DependÍncias
+#Depend√™ncias
 
 .NET Core 2.1 +
 
-#InstalaÁ„o
+#Instala√ß√£o
 
-O pacote ser· disponibilizado Pelos site de pacotes do NUGET  https://www.nuget.org/packages/SagerDomainNotification
+O pacote ser√° disponibilizado Pelos site de pacotes do NUGET  https://www.nuget.org/packages/SagerDomainNotification
 
 #Nuget
 
@@ -347,7 +377,7 @@ Install-Package SagerDomainNotification
 
 dotnet add package SagerDomainNotification
 
-#Usando Vers„o EspecÌfica
+#Usando Vers√£o Espec√≠fica
 
 #Nuget
 
