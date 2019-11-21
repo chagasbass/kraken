@@ -5,6 +5,15 @@ formatar cpf
 validar cnpj
 formatar cnpj
 
+verficar se contem letras
+verificar se contem numeros
+verificar se contem letras e numeros
+verificar se e numero inteiro valido
+vereificar se e numero real valido
+
+https://pt.slideshare.net/adrianoboller/classe-validar-em-c
+https://www.wellingtonjhn.com/posts/n%C3%A3o-lance-exceptions-em-seu-dom%C3%ADnio-use-notifications/
+
 validacao de coordenadas
 
 validar telefone celular
