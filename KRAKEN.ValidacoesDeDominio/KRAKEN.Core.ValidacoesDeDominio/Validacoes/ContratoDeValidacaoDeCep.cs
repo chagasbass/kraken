@@ -22,13 +22,13 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
 
         public Contrato VerificarTamanho(string valor, string propriedade, string mensagem)
         {
-            const int tamanhoCep = 9;
+            const int tamanhoCepComMascara = 9;
+            
             //24130-110
-            if (string.IsNullOrEmpty(valor) || valor.Length != tamanhoCep)
+            if (string.IsNullOrEmpty(valor) || valor.Length != tamanhoCepComMascara)
                 InserirNotificacao(propriedade, mensagem);
 
             return this;
         }
-
     }
 }

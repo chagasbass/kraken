@@ -1,4 +1,6 @@
 ﻿using KRAKEN.Core.ValidacoesDeDominio.Helpers;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
 {
@@ -10,6 +12,38 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
             VerificarPadrao(telefoneCelular, padrao, propriedade, mensagem);
 
             VerificarSeDDDEValido(telefoneCelular, propriedade, mensagem);
+
+            return this;
+        }
+
+        public Contrato VerificarSeTelefoneCelularSemDDDEValido(string telefoneCelular,string propriedade,string mensagem)
+        {
+            #region refatorar
+            if (!telefoneCelular.StartsWith("9"))
+            {
+                InserirNotificacao(propriedade, mensagem);
+            }
+
+            if(telefoneCelular.Length != 9)
+            {
+                InserirNotificacao(propriedade, mensagem);
+            }
+
+            var numerosErroneos = new List<string>() { "000000000","111111111","222222222","333333333","444444444",
+            "555555555","666666666","777777777","888888888"};
+
+            if (telefoneCelular.TodosOsCaracteresSaoIguais() && numerosErroneos.Contains(telefoneCelular))
+            {
+                InserirNotificacao(propriedade, mensagem);
+            }
+            #endregion
+            //
+            /*premissas que nao podem
+             * sem comecar com 9 ok
+             * deve ter 9 digitos ok
+             * so pode ser tudo 9 (999999999)
+             * criar array com todos os q nao podem
+             */
 
             return this;
         }

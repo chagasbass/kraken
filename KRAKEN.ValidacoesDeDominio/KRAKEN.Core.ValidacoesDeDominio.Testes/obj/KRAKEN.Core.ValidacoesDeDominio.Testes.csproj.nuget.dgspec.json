@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {}
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {}
   },
   "projects": {
-    "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
+        "projectUniqueName": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
         "projectName": "KRAKEN.Core.ValidacoesDeDominio.Testes",
-        "projectPath": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
-        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\obj\\",
+        "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
+        "packagesPath": "C:\\Users\\Thiago Chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Thiago Chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
-                "projectPath": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj"
+              "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
+                "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj"
               }
             }
           }
@@ -65,28 +67,36 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
+        "projectUniqueName": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
         "projectName": "KRAKEN",
-        "projectPath": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
-        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\obj\\",
+        "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
+        "packagesPath": "C:\\Users\\Thiago Chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Thiago Chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -117,10 +127,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
