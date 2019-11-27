@@ -1,0 +1,36 @@
+validar Cep
+formatar cep
+validar cpf
+formatar cpf
+validar cnpj
+formatar cnpj
+
+verficar se contem letras
+verificar se contem numeros
+verificar se contem letras e numeros
+verificar se e numero inteiro valido
+vereificar se e numero real valido
+
+https://pt.slideshare.net/adrianoboller/classe-validar-em-c
+https://www.wellingtonjhn.com/posts/n%C3%A3o-lance-exceptions-em-seu-dom%C3%ADnio-use-notifications/
+
+validacao de coordenadas
+
+validar telefone celular
+formatar telefones
+validar telefone fixo
+validar ddd
+
+validar titulo de eleitor
+validar placa velha de carro
+validar placa nova
+validar habilitacao
+
+validar url
+validar ip
+validar cartao de crédito
+validar conta de banco
+validar bilhete unico
+carteira de habilitação
+carteira de trabalho
+certificado de reservista

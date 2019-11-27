@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D86043D-45C1-44D8-A117-DCAC9E1081ED}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		validacoes.txt = validacoes.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KRAKEN.Core.ValidacoesDeDominio", "KRAKEN.Core.ValidacoesDeDominio\KRAKEN.Core.ValidacoesDeDominio.csproj", "{4EAA1106-52E9-4170-B467-A0E58155A192}"
