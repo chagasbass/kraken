@@ -1,4 +1,4 @@
-#SAGER Domain Notifications
+#Notificações de Domínio
 
 Implementação do Domain Notification Pattern  para efetuar as validações de domínio para entidades do 
 projeto SAGER.

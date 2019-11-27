@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {}
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
+        "projectUniqueName": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
         "projectName": "KRAKEN.Core.ValidacoesDeDominio.Testes",
-        "projectPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
+        "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\KRAKEN.Core.ValidacoesDeDominio.Testes.csproj",
         "packagesPath": "C:\\Users\\Thiago Chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\obj\\",
+        "outputPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Thiago Chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -32,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
-                "projectPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj"
+              "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
+                "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj"
               }
             }
           }
@@ -80,23 +78,21 @@
         }
       }
     },
-    "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
+    "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
+        "projectUniqueName": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
         "projectName": "KRAKEN",
-        "projectPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
+        "projectPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio.csproj",
         "packagesPath": "C:\\Users\\Thiago Chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago Chagas\\source\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\obj\\",
+        "outputPath": "C:\\Dev\\kraken\\KRAKEN.ValidacoesDeDominio\\KRAKEN.Core.ValidacoesDeDominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Thiago Chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
