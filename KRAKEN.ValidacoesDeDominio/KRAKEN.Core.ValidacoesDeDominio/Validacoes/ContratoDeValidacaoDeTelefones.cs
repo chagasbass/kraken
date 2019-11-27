@@ -1,6 +1,5 @@
 ﻿using KRAKEN.Core.ValidacoesDeDominio.Helpers;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
 {

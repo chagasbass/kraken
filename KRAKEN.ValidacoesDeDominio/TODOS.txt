@@ -1,0 +1,7 @@
+validar telefone celular sem mascara mas com DDD
+validar telefone fixo sem mascara e sem DDD
+validar telefone fixo sem mascara e com DDD
+validar a classe de validacoes de telefone
+validar a extensao de string
+validar a notificavel
+retirar a interface do metodo validar
