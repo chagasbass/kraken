@@ -14,6 +14,9 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Helpers
 
         public static bool ValidarDDD(string telefone)
         {
+            if (telefone.Any(x => !char.IsLetter(x)))
+                return false;
+
             var ddd = telefone.Replace("(", "").Replace(")", "");
             var digitosDoDDD = Int32.Parse(ddd.Substring(0, 2));
 

@@ -20,7 +20,7 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Testes.TestesDeContratos
 
         [TraitAttribute("Categoria", "Testes de Contrato de Telefones")]
         [Theory(DisplayName = "DeveRetornarNotificacaoQuandoDDDTelefoneCelularForInvalido")]
-        [InlineData("(11A)99878-4567AAAA")]
+        [InlineData("(11A)99878-4567")]
         public void DeveRetornarNotificacaoQuandoDDDTelefoneCelularForInvalido(string telefoneUm)
         {
             var contrato = new Contrato()
@@ -28,6 +28,19 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Testes.TestesDeContratos
                 .VerificarSeTelefoneCelularComDDDEValido(telefoneUm, "valor", "O valor é falso");
 
             Assert.Equal(1, contrato.Notificacoes.Count);
+        }
+
+        [TraitAttribute("Categoria", "Testes de Contrato de Telefones")]
+        [Theory(DisplayName = "NaoDeveRetornarNotificacaoQuandoDDDTelefoneCelularForemValidos")]
+        [InlineData("(11)99878-4567")]
+        public void NaoDeveRetornarNotificacaoQuandoDDDTelefoneCelularForemValidos(string telefoneUm)
+        {
+            var contrato = new Contrato()
+                .Requer()
+                .VerificarSeTelefoneCelularComDDDEValido(telefoneUm, "valor", "O valor é falso");
+
+            Assert.True(contrato.Valido);
+            Assert.Equal(0, contrato.Notificacoes.Count);
         }
 
         [TraitAttribute("Categoria", "Testes de Contrato de Telefones")]

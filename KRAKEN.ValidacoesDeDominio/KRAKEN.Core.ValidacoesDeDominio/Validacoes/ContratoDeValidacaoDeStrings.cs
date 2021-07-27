@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
@@ -123,6 +124,14 @@ namespace KRAKEN.Core.ValidacoesDeDominio.Validacoes
         {
             const string pattern = @"^\d+$";
             return VerificarPadrao(texto, pattern, propriedade, mensagem);
+        }
+
+        public Contrato VerificarSeExisteLetra(string texto, string propriedade, string mensagem)
+        {
+            if (texto.Any(x => !char.IsLetter(x)))
+                InserirNotificacao(propriedade, mensagem);
+
+            return this;
         }
 
         public Contrato VerificarTamanhoMinimoSeNaoForNuloOuVazio(string texto, int minimo, string propriedade, string mensagem)
